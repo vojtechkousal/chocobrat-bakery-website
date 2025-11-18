@@ -1,0 +1,23 @@
+
+
+.main-navigation {
+
+}
+
+.maincontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: bisque;
+}
+.order-now-container {
+
+
+}
+
+.best-selling-container {
+
+}
+
+.article-container{
+
+}

@@ -1,1 +1,1 @@
-# chocobrat-bakery-website
+This is the Assignment: Chocobrat Bakery Landing Page by Vojtech Kousal and Santiago Suarez Jaramillo, design of the website by Mr. Gopal Sapara.
