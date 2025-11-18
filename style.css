@@ -1,4 +1,18 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
 
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 500px;
+    list-style: none;
+}
+.titlercontainer {
+    
+}
 
 .main-navigation {
 
