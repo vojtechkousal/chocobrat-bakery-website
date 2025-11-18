@@ -2,19 +2,38 @@ nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
+    
 }
 
 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 500px;
     list-style: none;
 }
-.titlercontainer {
-    
+
+.ulcontainer {
+    width: 600px;
 }
 
-.main-navigation {
+.titlercontainer {
+    display: grid;
+    place-items: center;
+    width: 400px;
+}
+.btnscontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100px;
+}
+.btnavcontactstyle {
+    background-color: transparent;
+    border: none;
+}
+
+.btnavshoppingstyle {
+    background-color: transparent;
+    border: none;
 
 }
 
