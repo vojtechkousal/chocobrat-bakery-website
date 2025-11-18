@@ -21,3 +21,15 @@
 .article-container{
 
 }
+
+footer {
+    background-color: beige;
+}
+
+footer nav ul {
+}
+
+#footer-bottom {
+    display: flexbox;
+    flex-direction: column;
+}
