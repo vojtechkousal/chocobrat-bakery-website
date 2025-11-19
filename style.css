@@ -1,6 +1,40 @@
 
+nav {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    
+}
 
-.main-navigation {
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+}
+
+.ulcontainer {
+    width: 600px;
+}
+
+.titlercontainer {
+    display: grid;
+    place-items: center;
+    width: 400px;
+}
+.btnscontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100px;
+}
+.btnavcontactstyle {
+    background-color: transparent;
+    border: none;
+}
+
+.btnavshoppingstyle {
+    background-color: transparent;
+    border: none;
 
 }
 
@@ -20,4 +54,73 @@
 
 .article-container{
 
+}
+
+/*split Vojta */
+
+footer {
+    background-color: #f5dfb8;
+    font-family: sans-serif;
+    color: #4a3728;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-top nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo */
+footer-top img {
+    height: 40px;
+}
+
+/* menu list */
+.footer-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    color: #4a3728;
+    font-size: 14px;
+}
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+#footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#copyright p {
+    margin: 0;
+}
+
+#footer-icons a {
+    margin-left: 16px;
+}
+
+
+#footer-icons img {
+    width: 18px;
+    height: 18px;
 }
