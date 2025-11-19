@@ -97,8 +97,44 @@ ul li a {
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    background-color: white
+    background-color: white;
+    position: relative;
+    overflow: hidden;
 }
+
+.quote-container::before,
+.quote-container::after {
+    content: "“";
+    position: absolute;
+    font-size: 200px;
+    color: rgba(240, 200, 150, 0.2);
+    font-family: Georgia, serif;
+    z-index: 0;
+}
+
+.quote-container::before {
+    top: 40px;
+    left: 40px;
+}
+
+.quote-container::after {
+    content: "”";
+    bottom: 40px;
+    right: 40px;
+}
+
+.quote-label {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #e1be87;
+    border-radius: 20px;
+    color: #c38d4d;
+    margin-bottom: 30px;
+}
+
 
 .quote-text {
     font-size: 28px;
