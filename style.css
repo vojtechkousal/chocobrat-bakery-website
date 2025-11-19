@@ -28,18 +28,29 @@ footer {
     color: #4a3728;
 }
 
+.footer-top {
+    border-bottom: 1px solid #e5cfa1;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #5c2e1a;       /* dark brown */
+    letter-spacing: 1px;  /* cleaner, spaced look */
+}
+
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 32px;
+    padding: 20px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-/* logo */
-footer-top img {
-    height: 32px;
 }
 
 /* menu list */
@@ -64,7 +75,7 @@ footer-top img {
 #footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 32px;
+    padding: 20px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,6 +84,12 @@ footer-top img {
 
 #copyright p {
     margin: 0;
+}
+
+#footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 #footer-icons img {
