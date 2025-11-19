@@ -71,31 +71,43 @@ ul {
 
 /*split Vojta */
 
+/* -------------------- FOOTER -------------------- */
+
 footer {
     background-color: #f5dfb8;
     font-family: sans-serif;
     color: #4a3728;
 }
 
-footer a {
-    text-decoration: none;
+.footer-top {
+    border-bottom: 1px solid #e5cfa1;
 }
 
+/* remove underline + default link colors */
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* TEXT LOGO — updated color (#4b1d1e) */
+.footer-logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4b1d1e;       /* updated logo color */
+    letter-spacing: 1px;
+}
+
+/* layout of top footer row */
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* logo */
-footer-top img {
-    height: 40px;
-}
-
-/* menu list */
+/* footer nav links */
 .footer-navigation ul {
     list-style: none;
     display: flex;
@@ -105,8 +117,6 @@ footer-top img {
 }
 
 .footer-navigation a {
-    text-decoration: none;
-    color: #4a3728;
     font-size: 14px;
 }
 
@@ -114,10 +124,11 @@ footer-top img {
     text-decoration: underline;
 }
 
+/* bottom footer row */
 #footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,12 +139,14 @@ footer-top img {
     margin: 0;
 }
 
-#footer-icons a {
-    margin-left: 16px;
+/* icons row */
+#footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
-
 
 #footer-icons img {
     width: 18px;
-    height: 18px;
+    height: 18px;
 }
