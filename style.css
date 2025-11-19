@@ -67,18 +67,37 @@ ul li a {
 
 }
 
+/* First mainpage part */
 .maincontainer {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: bisque;
-}
-.order-now-container {
-
-
+    background-color: white;
 }
 
-.best-selling-container {
+/* Bring your Happiness part*/
+.maincakecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(45deg, white, #fdf4e4);
+}
 
+.hapinesscontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.maincakestyle {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+
+/* Try our Best Selling */
+.cakegallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .article-container{
