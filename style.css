@@ -1,6 +1,39 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    
+}
 
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+}
 
-.main-navigation {
+.ulcontainer {
+    width: 600px;
+}
+
+.titlercontainer {
+    display: grid;
+    place-items: center;
+    width: 400px;
+}
+.btnscontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100px;
+}
+.btnavcontactstyle {
+    background-color: transparent;
+    border: none;
+}
+
+.btnavshoppingstyle {
+    background-color: transparent;
+    border: none;
 
 }
 
@@ -22,12 +55,15 @@
 
 }
 
+/*split Vojta */
+
 footer {
     background-color: #f5dfb8;
     font-family: sans-serif;
     color: #4a3728;
 }
 
+<<<<<<< HEAD
 .footer-top {
     border-bottom: 1px solid #e5cfa1;
 }
@@ -42,6 +78,10 @@ footer a {
     font-weight: 700;
     color: #5c2e1a;       /* dark brown */
     letter-spacing: 1px;  /* cleaner, spaced look */
+=======
+footer a {
+    text-decoration: none;
+>>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
 }
 
 .footer-top nav {
@@ -53,6 +93,14 @@ footer a {
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+/* logo */
+footer-top img {
+    height: 40px;
+}
+
+>>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
 /* menu list */
 .footer-navigation ul {
     list-style: none;
@@ -86,12 +134,20 @@ footer a {
     margin: 0;
 }
 
+<<<<<<< HEAD
 #footer-icons {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
+=======
+#footer-icons a {
+    margin-left: 16px;
+}
+
+
+>>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
 #footer-icons img {
     width: 18px;
     height: 18px;
