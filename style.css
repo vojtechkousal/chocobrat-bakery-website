@@ -26,6 +26,20 @@ ul {
     place-items: center;
     width: 100px;
 }
+.searchcontainer {  
+    width: 250px;
+
+}
+.btnavsearch {
+    width: 50px;
+    height: 50px;
+    background-color: #4b1d1e;
+    background-image: url(./image/nav-images/magnifying\ glass.png);
+    background-size: cover;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+}
 .btnavcontactstyle {
     background-color: transparent;
     border: none;
