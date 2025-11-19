@@ -1,8 +1,9 @@
+/* -------------------- NAVIGATION -------------------- */
+
 nav {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    
 }
 
 ul {
@@ -20,42 +21,29 @@ ul {
     place-items: center;
     width: 400px;
 }
+
 .btnscontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
     width: 100px;
 }
-.btnavcontactstyle {
-    background-color: transparent;
-    border: none;
-}
 
+.btnavcontactstyle,
 .btnavshoppingstyle {
     background-color: transparent;
     border: none;
-
 }
+
+/* -------------------- MAIN -------------------- */
 
 .maincontainer {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: bisque;
 }
-.order-now-container {
 
-
-}
-
-.best-selling-container {
-
-}
-
-.article-container{
-
-}
-
-/*split Vojta */
+/* -------------------- FOOTER -------------------- */
 
 footer {
     background-color: #f5dfb8;
@@ -63,45 +51,36 @@ footer {
     color: #4a3728;
 }
 
-<<<<<<< HEAD
-.footer-top {
-    border-bottom: 1px solid #e5cfa1;
-}
-
+/* remove underline from ALL footer links */
 footer a {
     text-decoration: none;
     color: inherit;
 }
 
+/* text logo */
 .footer-logo {
     font-size: 32px;
     font-weight: 700;
-    color: #5c2e1a;       /* dark brown */
-    letter-spacing: 1px;  /* cleaner, spaced look */
-=======
-footer a {
-    text-decoration: none;
->>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
+    color: #5c2e1a;          /* dark brown */
+    letter-spacing: 1px;
 }
 
+/* top section line */
+.footer-top {
+    border-bottom: 1px solid #e5cfa1;
+}
+
+/* footer layout top */
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
-=======
-/* logo */
-footer-top img {
-    height: 40px;
-}
-
->>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
-/* menu list */
+/* nav links in footer */
 .footer-navigation ul {
     list-style: none;
     display: flex;
@@ -111,8 +90,6 @@ footer-top img {
 }
 
 .footer-navigation a {
-    text-decoration: none;
-    color: #4a3728;
     font-size: 14px;
 }
 
@@ -120,10 +97,11 @@ footer-top img {
     text-decoration: underline;
 }
 
+/* footer bottom section */
 #footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,20 +112,13 @@ footer-top img {
     margin: 0;
 }
 
-<<<<<<< HEAD
+/* footer icons as row */
 #footer-icons {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-=======
-#footer-icons a {
-    margin-left: 16px;
-}
-
-
->>>>>>> f9407c0b4869a30c7690f460aab6a00295e7a4b9
 #footer-icons img {
     width: 18px;
     height: 18px;
