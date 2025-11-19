@@ -87,7 +87,48 @@ ul li a {
 
 /*split Vojta */
 
-/* -------------------- FOOTER -------------------- */
+.quote-wrapper {
+    background-color: #f4d9a7;
+    padding: 60px 0;
+}
+
+.quote-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    background-color: white
+}
+
+.quote-text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+}
+
+.quote-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.quote-name {
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.quote-role {
+    color: #777;
+    margin-top: -4px;
+    font-size: 12px;
+}
 
 footer {
     background-color: #f5dfb8;
