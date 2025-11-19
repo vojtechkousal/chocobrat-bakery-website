@@ -28,6 +28,10 @@ footer {
     color: #4a3728;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,7 +43,7 @@ footer {
 
 /* logo */
 footer-top img {
-    height: 32px;
+    height: 40px;
 }
 
 /* menu list */
@@ -74,6 +78,11 @@ footer-top img {
 #copyright p {
     margin: 0;
 }
+
+#footer-icons a {
+    margin-left: 16px;
+}
+
 
 #footer-icons img {
     width: 18px;
