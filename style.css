@@ -1,8 +1,9 @@
+/* -------------------- NAVIGATION -------------------- */
+
 nav {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    
 }
 
 ul {
@@ -20,42 +21,29 @@ ul {
     place-items: center;
     width: 400px;
 }
+
 .btnscontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
     width: 100px;
 }
-.btnavcontactstyle {
-    background-color: transparent;
-    border: none;
-}
 
+.btnavcontactstyle,
 .btnavshoppingstyle {
     background-color: transparent;
     border: none;
-
 }
+
+/* -------------------- MAIN -------------------- */
 
 .maincontainer {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: bisque;
 }
-.order-now-container {
 
-
-}
-
-.best-selling-container {
-
-}
-
-.article-container{
-
-}
-
-/*split Vojta */
+/* -------------------- FOOTER -------------------- */
 
 footer {
     background-color: #f5dfb8;
@@ -72,6 +60,7 @@ footer a {
     color: inherit;
 }
 
+/* text logo */
 .footer-logo {
     font-size: 32px;
     font-weight: 700;
@@ -79,10 +68,11 @@ footer a {
     letter-spacing: 1px;  /* cleaner, spaced look */
 }
 
+/* footer layout top */
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,8 +88,6 @@ footer a {
 }
 
 .footer-navigation a {
-    text-decoration: none;
-    color: #4a3728;
     font-size: 14px;
 }
 
@@ -107,10 +95,11 @@ footer a {
     text-decoration: underline;
 }
 
+/* footer bottom section */
 #footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 32px;
+    padding: 16px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
