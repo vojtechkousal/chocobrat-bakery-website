@@ -2,6 +2,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
+    font-family: 'Nunito', sans-serif;;
     
 }
 
@@ -9,30 +10,42 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     list-style: none;
+    width: 555px;
+}
+
+ul li a {
+    text-decoration: none;
 }
 
 .ulcontainer {
-    width: 600px;
+    width: 670px;
 }
 
 .titlercontainer {
     display: grid;
-    place-items: center;
-    width: 400px;
+    place-items: start;
+    padding-left: 50px;
+    width: 360px;
 }
 .btnscontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    width: 100px;
+    width: 120px;
 }
-.searchcontainer {  
-    width: 250px;
-
+.searchcontainer form{
+    display: flex;
+    gap: 0;  
+    width: 280px;
+}
+.inputsearch {
+    width: 210px;
+    height: 34.8px;
+    padding-left: 10px;
 }
 .btnavsearch {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #4b1d1e;
     background-image: url(./image/nav-images/magnifying\ glass.png);
     background-size: cover;
@@ -41,6 +54,7 @@ ul {
     cursor: pointer;
 }
 .btnavcontactstyle {
+
     background-color: transparent;
     border: none;
 }
