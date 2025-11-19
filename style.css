@@ -71,7 +71,10 @@ ul {
 
 /*split Vojta */
 
-/* -------------------- FOOTER -------------------- */
+.quote-wrapper {
+    background-color: #f4d9a7;
+    padding: 60px 0;
+}
 
 .quote-container {
     max-width: 900px;
@@ -98,6 +101,17 @@ ul {
     display: block;
     object-fit: cover;
     margin: 0 auto;
+}
+
+.quote-name {
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.quote-role {
+    color: #777;
+    margin-top: -4px;
+    font-size: 12px;
 }
 
 footer {
