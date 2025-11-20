@@ -162,13 +162,6 @@ ul li a {
     height: 129px;
     border-radius: 21px; 
 }   
-
-/* Try our Best Selling */
-.cakegallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .order-now-btncontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -209,6 +202,20 @@ ul li a {
     font-size: 18px;    
 }
 
+/* Try our Best Selling */
+.cakegallery {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    height: 120px;
+}
+.spacer-style {
+    border: none;
+    border-left:  2px solid rgb(91, 91, 91);
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+}
 
 .article-container{
 
