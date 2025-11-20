@@ -85,6 +85,36 @@ ul li a {
 
 /*split Vojta */
 
+.contact-container {
+    background-color: #f4d9a7;
+    padding: 60px 20px;
+    text-align: center;
+}
+.contact-container h1 {
+    font-size: 32px;
+    color: #4b1d1e;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #4b1d1e;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.contact-button {
+    padding: 12px 28px;
+    background-color: #4b1d1e;
+    color: #f4d9a7;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .quote-wrapper {
     background-color: #f4d9a7;
     padding: 40px 0 60px 0;
