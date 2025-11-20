@@ -46,7 +46,7 @@ ul li a {
 }
 .inputsearch {
     width: 210px;
-    height: 34.8px;
+    height: 40px;
     padding-left: 10px;
 }
 .btnavsearch {
@@ -96,12 +96,40 @@ ul li a {
     padding-left: 100px;
     margin-top: 40px;
 }
+.happinesscakeh1style {
+    font-size: 35px;
+    width: 500px;
+    height: auto;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color: #4b1d1e;
+    }
 
 
 /* Try our Best Selling */
 .cakegallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.order-now-btncontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;        
+}
+
+.order-now-button-div {
+    
+}
+.see-all-button-div {
+    width: 570px;
+}
+.btn-order {
+    background-color: #4b1d1e;
+
+}
+.btn-order a{
+    color: white;
 }
 
 .article-container{
