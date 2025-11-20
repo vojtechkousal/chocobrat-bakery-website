@@ -73,17 +73,22 @@ ul li a {
 }
 
 /* First mainpage part */
-.maincontainer {
+.top-section {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background: linear-gradient(45deg, white, #fdf4e4);
+}
+
+.maincontainer {
     background-color: white;
 }
 
 /* Bring your Happiness part*/
 .maincakecontainer {
     display: grid;
+    height: 670px;
     grid-template-columns: 1fr 1fr;
-    background: linear-gradient(45deg, white, #fdf4e4);
+    padding-top: 30px;
 }
 
 .hapinesscontainer {
@@ -97,14 +102,66 @@ ul li a {
     margin-top: 40px;
 }
 .happinesscakeh1style {
-    font-size: 35px;
-    width: 500px;
-    height: auto;
+    font-size: 43px;
+    width: 530px;
+    height: 130px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
-    color: #4b1d1e;
+    color: #4A1D1F;
 }
 
+/* MINI CAKE GALLERY */
+.blackcake-img-container-style {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mini-cake-gallery-container {
+    height: 500px;
+    margin-top: 80px;
+    position: relative;
+}
+   
+.mini-galley-style {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.4);  /* 40% opacity */
+    width: 1200px;
+    height: 201px;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    position: absolute;
+    bottom: 15%;       
+    left: 20%;       
+    transform: translateX(-30%) translateY(35%);
+}
+.arrow-image-container-style {
+    width: 85%;
+    height: 190px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.arrow-image-style {
+    height: 45px;
+    width: auto;
+}
+.cake-image-container-style {
+    display: grid;
+    place-items: center;
+    padding-bottom: 40px;
+    width: 700px;
+    margin-right: 160px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 7px;
+}
+.cake-image-style {
+    width: 100%;
+    height: 129px;
+    border-radius: 21px; 
+}   
 
 /* Try our Best Selling */
 .cakegallery {
@@ -115,7 +172,9 @@ ul li a {
 .order-now-btncontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 100px;        
+    width: 480px;
+    padding-left: 100px;
+    column-gap: 20px;      
 }
 
 .order-now-button-div {
@@ -126,13 +185,30 @@ ul li a {
 }
 .btn-order {
     background-color: #4b1d1e;
-    width: 100px;
-    height: 40px;
+    width: 166px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
 
 }
 .btn-order a{
-    color: white;
+    color: #FBEDCD;
+    text-decoration: none;
+    font-size: 18px;
 }
+.btn-see-all-menus {
+    background-color: transparent;
+    width: 197px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #4b1d1e;   
+}
+.btn-see-all-menus a{
+    color: #4b1d1e;
+    text-decoration: none;
+    font-size: 18px;    
+}
+
 
 .article-container{
 
@@ -252,7 +328,7 @@ footer a {
 .footer-logo {
     font-size: 32px;
     font-weight: 700;
-    color: #4b1d1e;       /* updated logo color */
+    color: #4b1d1e;
     letter-spacing: 1px;
 }
 
