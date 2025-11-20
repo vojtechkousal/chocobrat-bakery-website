@@ -254,6 +254,8 @@ span.best-selling-section {
 
 /*split Vojta */
 
+/* CONTACT CONTAINER */
+
 .contact-container {
     background-color: #f4d9a7;
     padding: 60px 20px;
@@ -284,13 +286,14 @@ span.best-selling-section {
     font-weight: bold;
 }
 
+/* QUOTE CONTAINER */
 .quote-wrapper {
     background-color: #f4d9a7;
     padding: 40px 0 60px 0;
 }
 
 .quote-container {
-    max-width: 900px;
+    max-width: 98%;
     margin: 0 auto;
     padding: 50px 60px;
     border-radius: 12px;
@@ -375,6 +378,8 @@ span.best-selling-section {
     position: relative;
     z-index: 2;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #f5dfb8;
