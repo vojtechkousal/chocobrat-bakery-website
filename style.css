@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
-nav {
+.main-nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    height: 100px;
     align-items: center;
     font-family: 'Nunito', sans-serif;
     color: #4b1d1e;
