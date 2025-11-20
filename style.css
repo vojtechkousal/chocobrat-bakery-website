@@ -219,11 +219,75 @@ ul li a {
     margin: 0 auto;
 }
 
-.article-container{
+/*split Vojta */
 
+.article-container {
+    width: 100%;
+    background-color: white;
+    padding: 60px 0;
 }
 
-/*split Vojta */
+.article {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.article .text {
+    width: 45%;
+}
+
+.article h1 {
+    color: #4b1d1e;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.article p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    color: #4b1d1e;
+    font-size: 18px;
+}
+
+.article img {
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.article-1 .text {
+    float: left;
+}
+
+.article-1 img {
+    float: right;
+    margin-left: 40px;
+}
+
+.article-2 img {
+    float: left;
+    margin-right: 40px;
+}
+
+.article-2 .text {
+    float: right;
+}
+
 
 /* CONTACT CONTAINER */
 
