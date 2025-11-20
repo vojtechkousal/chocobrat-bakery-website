@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -92,7 +93,6 @@ ul li a {
 .maincakestyle {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-family: 'Nunito', sans-serif;
     padding-left: 100px;
     margin-top: 40px;
 }
@@ -103,7 +103,7 @@ ul li a {
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
     color: #4b1d1e;
-    }
+}
 
 
 /* Try our Best Selling */
@@ -126,6 +126,8 @@ ul li a {
 }
 .btn-order {
     background-color: #4b1d1e;
+    width: 100px;
+    height: 40px;
 
 }
 .btn-order a{
