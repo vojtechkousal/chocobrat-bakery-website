@@ -1,9 +1,12 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
 
+body {
+    max-width: 1536px;
+}
 .main-nav {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -30,7 +33,6 @@ ul li a {
     display: flex;
     justify-content: center;
     width: 670px;
-
 }
 
 .titlercontainer {
@@ -39,6 +41,7 @@ ul li a {
     padding-left: 50px;
     width: 360px;
 }
+
 .btnscontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,29 +49,32 @@ ul li a {
     width: 120px;
     margin-left: 30px;
 }
-.searchcontainer form{
+
+.searchcontainer form {
     display: flex;
     justify-content: flex-end;
     gap: 0;  
     width: 280px;
 }
+
 .inputsearch {
     width: 210px;
     height: 40px;
     padding-left: 10px;
 }
+
 .btnavsearch {
     width: 40px;
     height: 40px;
     background-color: #4b1d1e;
-    background-image: url(./image/nav-images/magnifying\ glass.png);
+    background-image: url("./image/nav-images/magnifying glass.png");
     background-size: cover;
     color: transparent;
     border: none;
     cursor: pointer;
 }
-.btnavcontactstyle {
 
+.btnavcontactstyle {
     background-color: transparent;
     border: none;
 }
@@ -76,7 +82,6 @@ ul li a {
 .btnavshoppingstyle {
     background-color: transparent;
     border: none;
-
 }
 
 /* First mainpage part */
@@ -88,6 +93,7 @@ ul li a {
 
 .maincontainer {
     background-color: white;
+    width: 1536px;
 }
 
 /* Bring your Happiness part*/
@@ -102,12 +108,14 @@ ul li a {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
 .maincakestyle {
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding-left: 100px;
     margin-top: 40px;
 }
+
 .happinesscakeh1style {
     font-size: 43px;
     width: 530px;
@@ -128,7 +136,7 @@ ul li a {
     margin-top: 80px;
     position: relative;
 }
-   
+
 .mini-galley-style {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,6 +152,7 @@ ul li a {
     transform: translateX(-30%) translateY(35%);
     padding-left: 63px;
 }
+
 .arrow-image-container-style {
     width: 85%;
     height: 190px;
@@ -152,10 +161,12 @@ ul li a {
     align-items: center;
     padding-bottom: 40px;
 }
+
 .arrow-image-style {
     height: 45px;
     width: auto;
 }
+
 .cake-image-container-style {
     display: grid;
     place-items: center;
@@ -164,11 +175,13 @@ ul li a {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 7px;
 }
+
 .cake-image-style {
     width: 100%;
     height: 129px;
     border-radius: 21px; 
-}   
+}
+
 .order-now-btncontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -177,25 +190,26 @@ ul li a {
     column-gap: 20px;      
 }
 
-.order-now-button-div {
-    
-}
+.order-now-button-div {}
+
 .see-all-button-div {
     width: 570px;
 }
+
 .btn-order {
     background-color: #4b1d1e;
     width: 166px;
     height: 50px;
     border-radius: 5px;
     border: none;
-
 }
-.btn-order a{
+
+.btn-order a {
     color: #FBEDCD;
     text-decoration: none;
     font-size: 18px;
 }
+
 .btn-see-all-menus {
     background-color: transparent;
     width: 197px;
@@ -203,14 +217,14 @@ ul li a {
     border-radius: 5px;
     border: 2px solid #4b1d1e;   
 }
-.btn-see-all-menus a{
+
+.btn-see-all-menus a {
     color: #4b1d1e;
     text-decoration: none;
     font-size: 18px;    
 }
 
 /* Try our Best Selling */
-
 .best-selling-section {
     display: flex;
     align-items: center;
@@ -218,7 +232,6 @@ ul li a {
     height: 160px;
     gap: 60px;
     padding-left: 80px;
-
 }
 
 .best-selling-section h2 {
@@ -230,7 +243,6 @@ ul li a {
     width: 530px;
     color: #4b1d1e;
     padding: 0px;
-    
 }
 
 .best-selling-section p {
@@ -257,6 +269,7 @@ span.best-selling-section {
     justify-content: end;
     margin-top: 120px;
 }
+
 .main-cake-container {  
     display: grid;
     width: 1500px;
@@ -264,20 +277,23 @@ span.best-selling-section {
     justify-content: end;
     column-gap: 70px;
 }
+
 .main-cakes-layout {
     display: grid;
-    grid-template-rows:repeat(3,auto) ;
+    grid-template-rows: repeat(3, auto);
     place-items: start;
     row-gap: 20px;
     width: 100%;
     height: 100%;
 }
+
 .main-cake-img-style {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     width: 221px;
     height: 338px;
     border-radius: 20px;
 }
+
 h3.main-cakes-layout {
     font-size: 16px;
     font-weight: 400;
@@ -286,7 +302,6 @@ h3.main-cakes-layout {
 }
 
 /* Button gallery */
-
 .btn-gallery-container {
     display: flex;
     justify-content: center;
@@ -296,6 +311,7 @@ h3.main-cakes-layout {
     margin-bottom: 60px;
     place-items: center;
 }
+
 .btnstyle-gallery {
     display: flex;
     width: 202px;
@@ -310,17 +326,13 @@ h3.main-cakes-layout {
     font-size: 18px;
     cursor: pointer;
 }
-.btnstyle-gallery img{
+
+.btnstyle-gallery img {
     width: 22px;
     height: auto;
-
-}
-.article-container{
-
 }
 
-/*split Vojta */
-
+/* ARTICLE CONTAINER */
 .article-container {
     width: 100%;
     background-color: white;
@@ -366,11 +378,10 @@ h3.main-cakes-layout {
 
 .article h2::after {
     content: "→";
-    font-size: 24px;
+    font-size: 18px;
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 18px;
 }
 
 .article img {
@@ -400,14 +411,13 @@ h3.main-cakes-layout {
     float: right;
 }
 
-
 /* CONTACT CONTAINER */
-
 .contact-container {
     background-color: #f4d9a7;
     padding: 60px 20px;
     text-align: center;
 }
+
 .contact-container h1 {
     font-size: 32px;
     color: #4b1d1e;
@@ -488,7 +498,6 @@ h3.main-cakes-layout {
     margin-bottom: 30px;
 }
 
-
 .quote-text {
     font-size: 28px;
     font-weight: 700;
@@ -527,11 +536,11 @@ h3.main-cakes-layout {
 }
 
 /* FOOTER */
-
 footer {
     background-color: #f5dfb8;
     font-family: sans-serif;
     color: #4a3728;
+    width: 1536px;
 }
 
 .footer-top {
@@ -547,10 +556,9 @@ footer a {
 
 .footer-logo {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 400;
     color: #4b1d1e;
     letter-spacing: 1px;
-    text
 }
 
 .footer-top nav {
