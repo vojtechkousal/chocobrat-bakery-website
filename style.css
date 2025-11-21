@@ -14,7 +14,8 @@
     
 }
 
-ul {
+header ul, 
+.main-nav ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     list-style: none;
@@ -259,11 +260,23 @@ ul li a {
 .article h2 {
     color: #4b1d1e;
     font-size: 18px;
+    position: relative;
+    display: inline-block;
+    padding-right: 40px; 
+}
+
+.article h2::after {
+    content: "→";
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 18px;
 }
 
 .article img {
     width: 45%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -305,7 +318,7 @@ ul li a {
 .contact-container p {
     font-size: 16px;
     color: #4b1d1e;
-    max-width: 600px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
@@ -323,7 +336,7 @@ ul li a {
 
 /* QUOTE CONTAINER */
 .quote-wrapper {
-    background-color: #f4d9a7;
+    background-color: #fcedd0;
     padding: 40px 0 60px 0;
 }
 
@@ -370,9 +383,9 @@ ul li a {
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 2px;
-    border: 1px solid #e1be87;
     border-radius: 20px;
-    color: #c38d4d;
+    color: #4b1d1f;
+    background-color: #fbeccb;
     margin-bottom: 30px;
 }
 
@@ -424,15 +437,15 @@ footer {
 
 .footer-top {
     border-bottom: 1px solid #e5cfa1;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
-/* remove underline + default link colors */
 footer a {
     text-decoration: none;
     color: inherit;
 }
 
-/* TEXT LOGO — updated color (#4b1d1e) */
 .footer-logo {
     font-size: 32px;
     font-weight: 700;
@@ -440,7 +453,6 @@ footer a {
     letter-spacing: 1px;
 }
 
-/* layout of top footer row */
 .footer-top nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -450,7 +462,6 @@ footer a {
     justify-content: space-between;
 }
 
-/* footer nav links */
 .footer-navigation ul {
     list-style: none;
     display: flex;
@@ -467,7 +478,6 @@ footer a {
     text-decoration: underline;
 }
 
-/* bottom footer row */
 #footer-bottom {
     max-width: 1200px;
     margin: 0 auto;
@@ -476,13 +486,14 @@ footer a {
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 #copyright p {
     margin: 0;
 }
 
-/* icons row */
 #footer-icons {
     display: flex;
     align-items: center;
